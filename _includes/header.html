@@ -1,0 +1,24 @@
+<header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <img src="/images/twitter.svg">
+        </svg>
+      </a>
+
+      <div class="trigger">
+        {% for page in site.pages %}
+          {% if page.title %}
+          <a class="page-link" target="none" href="http://twitter.com/intent/tweet?text=Follow+along+as+the+nice+ppl+at+Honeycomb+try+to+make+a+magazine+without+disappointing+their+parents.+honeycomb.xyz+@readhoneycomb">{{ page.title }}</a>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </nav>
+
+  </div>
+
+</header>
