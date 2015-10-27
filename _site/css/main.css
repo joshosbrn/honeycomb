@@ -386,6 +386,9 @@ pre {
   padding: 5%;
   font-size: 1.5em;
   text-align: center; }
+  @media screen and (max-width: 600px) {
+    .site-footer .social {
+      margin: 30px 0 0 0; } }
   .site-footer a {
     color: #fff;
     text-decoration: none;
