@@ -394,8 +394,8 @@ pre {
       opacity: 1; }
   .site-footer li {
     list-style-type: none;
-    display: inline;
-    margin: 0 30px 0 0; }
+    padding: 0 20px;
+    display: inline; }
     @media screen and (max-width: 600px) {
       .site-footer li {
         display: block; } }
@@ -410,6 +410,9 @@ pre {
     .site-footer .logo:hover {
       transform: scale(1.1);
       opacity: 1; }
+    @media screen and (max-width: 600px) {
+      .site-footer .logo {
+        margin: 30px 0 30px 0; } }
 
 .contact-list,
 .social-media-list {
